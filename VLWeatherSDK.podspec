@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "VLWeatherSDK"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "Get weather info"
 
   # This description is used to generate tags and improve search results.
@@ -92,7 +92,7 @@ Weather information can be obtained by city name, zip code, longitude and latitu
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "VLWeatherSDK", "VLWeatherSDK.framework/**/*.{h,m}"
+  spec.source_files  = "VLWeatherSDK", "VLWeatherSDK.framework/**/*"
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
