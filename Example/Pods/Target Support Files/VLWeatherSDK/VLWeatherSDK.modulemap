@@ -1,0 +1,6 @@
+framework module VLWeatherSDK {
+  umbrella header "VLWeatherSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

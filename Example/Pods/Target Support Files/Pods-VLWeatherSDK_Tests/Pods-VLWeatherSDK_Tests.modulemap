@@ -1,0 +1,6 @@
+framework module Pods_VLWeatherSDK_Tests {
+  umbrella header "Pods-VLWeatherSDK_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09F45037D790F4CED654308B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		09F45037D790F4CED654308B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		18DA0D679E41CB965DB1E68E /* Pods-VLWeatherSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VLWeatherSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-VLWeatherSDK_Example/Pods-VLWeatherSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		37CEAF1ACAC9C664343DE156 /* Pods-VLWeatherSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VLWeatherSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-VLWeatherSDK_Tests/Pods-VLWeatherSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* VLWeatherSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VLWeatherSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,9 +63,9 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		88EB09D17DC174F25D44C3E3 /* Pods_VLWeatherSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VLWeatherSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6C84F189EE448C4A0DF4E15 /* VLWeatherSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = VLWeatherSDK.podspec; path = ../VLWeatherSDK.podspec; sourceTree = "<group>"; };
+		A6C84F189EE448C4A0DF4E15 /* VLWeatherSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = VLWeatherSDK.podspec; path = ../VLWeatherSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B5AB74757F5BAF0BD219A90A /* Pods_VLWeatherSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VLWeatherSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE3BAF74D13E7D4AD4F93903 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CE3BAF74D13E7D4AD4F93903 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		EB147FA41EF0F9ECC976466A /* Pods-VLWeatherSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VLWeatherSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-VLWeatherSDK_Tests/Pods-VLWeatherSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				EB147FA41EF0F9ECC976466A /* Pods-VLWeatherSDK_Tests.debug.xcconfig */,
 				37CEAF1ACAC9C664343DE156 /* Pods-VLWeatherSDK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

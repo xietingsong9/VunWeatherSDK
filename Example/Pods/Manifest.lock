@@ -1,0 +1,16 @@
+PODS:
+  - VLWeatherSDK (0.1.0)
+
+DEPENDENCIES:
+  - VLWeatherSDK (from `../`)
+
+EXTERNAL SOURCES:
+  VLWeatherSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  VLWeatherSDK: 33fb7fd624b6743e8d161ae7a3ed13aa0554ebc5
+
+PODFILE CHECKSUM: 1fe402cad1a9078d3e62c62dce9aed155dc5ecc0
+
+COCOAPODS: 1.10.1

@@ -1,0 +1,22 @@
+{
+  "name": "VLWeatherSDK",
+  "version": "0.1.0",
+  "summary": "A short description of VLWeatherSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xietingsong9/VLWeatherSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xietingsong9": "xietingsong3@163.com"
+  },
+  "source": {
+    "git": "https://github.com/xietingsong9/VLWeatherSDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "VLWeatherSDK/Classes/**/*"
+}
